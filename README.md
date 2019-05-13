@@ -12,27 +12,6 @@ hosted in [Github pages](https://pages.github.com/).
 
 Site available at [jideguru.github.io](http://jideguru.github.io)
 
-## How to use it
-
-Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
-Edit the site attributes in *_config.yml* and edit the various entries in *_includes/* and *_posts/*.
-
-
-## Issues and contributing
-
-I have tested this install with Ruby v2.4.2 (Mac OS RVM) and Jekyll v3.6.2. If you run into any problems please log them on the [issue tracker](https://github.com/jekyller/sustain/issues).
-
-Feel free pull-request your patches and fixes.
-
-#### Contributors
-
-[Sumit Murari](https://github.com/murarisumit), November 2015
-
-
-## Thanks
-
-Profile picture from [pexels](https://www.pexels.com/photo/portrait-black-african-ethnicity-person-9494/).
-
 
 ## Copyright & License
 
