@@ -10,7 +10,7 @@ hosted in [Github pages](https://pages.github.com/).
 
 
 
-Site available at [jideguru.github.io](http://www.jideguru.github.io)
+Site available at [jideguru.github.io](http://jideguru.github.io)
 
 ## How to use it
 
