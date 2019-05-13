@@ -13,17 +13,17 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://jideguru.github.io/
 baseurl: 
-title: Chris Turner
-author: Chris Turner
+title: JideGuru
+author: Olusegun Festus Babajide
 description: Personal blog and resume
 avatar: profile.png
-email: yourname@email.com
-github: jekyller/sustain # username
-twitter: username
-linkedin: username
-stackoverflow: username   #e.g: users/2735833/proton1h1
+email: guruliciousjide@gmail.com
+github: jekyller/jideguru # username
+twitter: iamjideguru
+linkedin: jideguru
+stackoverflow: users/10835183/jideguru-theprogrammer  #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
-disqus: username
+# disqus: username
 google_analytics: UA-69391421-1
 
 
