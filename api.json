@@ -1,5 +1,5 @@
 ---
-layout: atom
+layout: api
 ---
 {
     {% for post in site.posts limit:10 %}
