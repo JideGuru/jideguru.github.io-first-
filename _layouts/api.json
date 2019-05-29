@@ -1,13 +1,24 @@
 {
     {% if page.grouptype == 'tag' %}
     "title": "Posts Tagged “{{ page.tag }}” – {{ site.title }}",
-    "link": "{{ site.url }}tag/{{ page.tag | replace:' ','-' | downcase }}/atom.xml",
+    "link": "{{ site.url }}tag/{{ page.tag | replace:' ','-' | downcase }}/api.json",
     {% elsif page.grouptype == 'category' %}
     "title": "Posts Categorized “{{ page.category | titlecase }}” – {{ site.title }}",
-    "link": "{{ site.url }}/category/{{ page.category | replace:' ','-' | downcase }}atom.xml",
+    "link": "{{ site.url }}category/{{ page.category | replace:' ','-' | downcase }}api.json",
     {% else %}
     "title": "{{ site.title }}",
-    "link": "{{ site.url }}/atom.xml",
+    "link": "{{ site.url }}api.json",
     {% endif %}
-    "link": "{{ site.url }}/"
+    "link": "{{ site.url }}",
+    "id": "{{ site.url }}",
+    "updated": "{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}",
+    "author":{
+        "name": "{{ site.author }}",
+        "email": "{{ site.email }}",
+        "image": "{{ site.url }}{{ site.avatar }}"
+    },
+    "rights:": "text">"Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.",
+    "content": [
+        {{ content }}
+    ]
 }
