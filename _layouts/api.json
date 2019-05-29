@@ -9,7 +9,6 @@
     "title": "{{ site.title }}",
     "link": "{{ site.url }}api.json",
     {% endif %}
-    "link": "{{ site.url }}",
     "id": "{{ site.url }}",
     "updated": "{{ site.time | date: "%Y-%m-%dT%H:%M:%SZ" }}",
     "author":{
@@ -17,7 +16,7 @@
         "email": "{{ site.email }}",
         "image": "{{ site.url }}{{ site.avatar }}"
     },
-    "rights:": "text">"Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.",
+    "rights:": "Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.",
     "items": [
         {{ content }}
     ]
