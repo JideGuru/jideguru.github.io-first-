@@ -1,0 +1,13 @@
+{
+    {% if page.grouptype == 'tag' %}
+    "title": "Posts Tagged “{{ page.tag }}” – {{ site.title }}",
+    "link": "{{ site.url }}tag/{{ page.tag | replace:' ','-' | downcase }}/atom.xml",
+    {% elsif page.grouptype == 'category' %}
+    "title": "Posts Categorized “{{ page.category | titlecase }}” – {{ site.title }}",
+    "link": "{{ site.url }}/category/{{ page.category | replace:' ','-' | downcase }}atom.xml",
+    {% else %}
+    "title": "{{ site.title }}",
+    "link": "{{ site.url }}/atom.xml",
+    {% endif %}
+    "link": "{{ site.url }}/"
+}
