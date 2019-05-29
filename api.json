@@ -1,8 +1,6 @@
 ---
 layout: api
 ---
-{
-    {% for post in site.posts limit:10 %}
-        {% include feed-detail.json %}
-    {% endfor %}
-}
+{% for post in site.posts limit:10 %}
+    {% include feed-detail.json %}
+{% endfor %}
