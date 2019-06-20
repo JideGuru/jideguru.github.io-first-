@@ -15,10 +15,10 @@
         "name": "{{ site.author }}",
         "email": "{{ site.email }}",
         "image": "{{ site.url }}static/img/{{ site.avatar }}",
-        "about": "<h3>I'm <strong>{{ site.author }}</strong>, a Fullstack developer.</h3>
-        <h3>I code for various platforms including Android, iOS and Web.</h3>
-        <h3>Have a look at some of my working <a href={{ site.baseurl }}projects.html> projects</a>.</h3>
-        <h3>For more check out my academic &amp; professional <a href={{ site.baseurl }}resume>Resume</a>.</h3>",
+        "about": "I'm {{ site.author }}, a Fullstack developer.
+        I code for various platforms including Android, iOS and Web.
+        Have a look at some of my working {{ site.baseurl }}projects.html projects.
+        For more check out my academic & professional {{ site.baseurl }}resume Resume",
         "social": {
             "github": "http://github.com/{{ site.github }}",
             "email": "mailto:{{ site.email}}",
