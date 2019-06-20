@@ -1,7 +1,8 @@
 {
+  "id": "{{ post.id }}",
   "title": "{{ post.title | xml_escape }}",
   "link": "{{ site.url }}{{ post.url }}",
-  "id": "{{ post.id }}",
+  "tags": "{{ post.tags }}",
   "published": "{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}",
   "updated": "{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}",
   "content": "{{ post.content | strip_newlines | xml_escape | replace: '', ''}}"
