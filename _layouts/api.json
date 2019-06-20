@@ -17,9 +17,8 @@
         "image": "{{ site.url }}static/img/{{ site.avatar }}",
         "about": "<h3>I'm <strong>{{ site.author }}</strong>, a Fullstack developer.</h3>
         <h3>I code for various platforms including Android, iOS and Web.</h3>
-        <h3>Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3>
-        <h3>For more check out my academic &amp; professional <a href="{{ site.baseurl }}resume">Resume</a>.</h3>
-        <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>",
+        <h3>Have a look at some of my working <a href={{ site.baseurl }}projects.html> projects</a>.</h3>
+        <h3>For more check out my academic &amp; professional <a href={{ site.baseurl }}resume>Resume</a>.</h3>",
         "social": {
             "github": "http://github.com/{{ site.github }}",
             "email": "mailto:{{ site.email}}",
@@ -28,9 +27,9 @@
             "stackoverflow": "http://stackoverflow.com/{{ site.stackoverflow }}",
             "whatsapp": "http://wa.me/{{ site.whatsapp }}"
         },
-        "blog": "{{ site.baseurl }}blog.html",
-        "resume": "{{ site.baseurl }}resume",
-        "projects": "{{ site.baseurl }}projects.html"
+        "blog": "{{ site.url }}blog.html",
+        "resume": "{{ site.url }}resume",
+        "projects": "{{ site.url }}projects.html"
     },
     "rights:": "Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.",
     "items": [
