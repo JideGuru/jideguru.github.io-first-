@@ -4,5 +4,5 @@
   "id": "{{ post.id }}",
   "published": "{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}",
   "updated": "{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}",
-  "content": "{{ post.content | xml_escape }}"
+  "content": "{{ post.content | newline_to_br }}"
 }
