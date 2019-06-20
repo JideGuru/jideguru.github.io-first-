@@ -15,10 +15,7 @@
         "name": "{{ site.author }}",
         "email": "{{ site.email }}",
         "image": "{{ site.url }}static/img/{{ site.avatar }}",
-        "about": "I'm {{ site.author }}, a Fullstack developer.
-        I code for various platforms including Android, iOS and Web.
-        Have a look at some of my working {{ site.baseurl }}projects.html projects.
-        For more check out my academic & professional {{ site.baseurl }}resume Resume",
+        "about": "I'm {{ site.author }}, a Fullstack developer. <br>I code for various platforms including Android, iOS and Web.<br>Have a look at some of my working {{ site.baseurl }}projects.html projects.<br>For more check out my academic & professional {{ site.baseurl }}resume Resume",
         "social": {
             "github": "http://github.com/{{ site.github }}",
             "email": "mailto:{{ site.email}}",
