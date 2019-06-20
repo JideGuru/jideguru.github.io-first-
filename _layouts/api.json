@@ -15,7 +15,11 @@
         "name": "{{ site.author }}",
         "email": "{{ site.email }}",
         "image": "{{ site.url }}static/img/{{ site.avatar }}",
-        "about": "{{ site.about }}"
+        "about": "<h3>I'm <strong>{{ site.author }}</strong>, a Fullstack developer.</h3>
+        <h3>I code for various platforms including Android, iOS and Web.</h3>
+        <h3>Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.</h3>
+        <h3>For more check out my academic &amp; professional <a href="{{ site.baseurl }}resume">Resume</a>.</h3>
+        <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>"
     },
     "rights:": "Copyright © {{ site.time | date: "%Y" }} {{ site.author }}. All rights reserved.",
     "items": [
